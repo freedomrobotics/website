@@ -1,0 +1,79 @@
+body {
+  background-color: #EEEEEE;
+}
+
+.bodytext {
+  color: #424242;
+}
+
+.accent {
+  color: #BDBDBD;
+}
+
+.navbar-default {
+    background-color: #F06292;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #EEEEEE;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #E0E0E0;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #E0E0E0;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #EEEEEE;
+    background-color: #F06292;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #E0E0E0;
+    background-color: #F06292;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #EEEEEE;
+    border-bottom-color: #EEEEEE;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #EEEEEE;
+    border-bottom-color: #EEEEEE;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #EEEEEE;
+    border-bottom-color: #EEEEEE;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #EEEEEE;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #EEEEEE;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #EEEEEE;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #EEEEEE;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #EEEEEE;
+    }
+}

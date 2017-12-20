@@ -2,6 +2,7 @@
   <head>
   <title>Le Pamplemousse Robotics</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
   </head>
   <body>
     <nav class="navbar navbar-default navbar-static-top">
